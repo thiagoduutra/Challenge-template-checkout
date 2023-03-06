@@ -1,0 +1,58 @@
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .empty-cart-content {
+        .empty-cart-title {
+            font-size: 24px;
+            font-family: $font-family;
+            font-weight: 700;
+
+            @media (max-width: 1024px) {
+                font-size: 18px;
+                line-height: 24px;
+            }
+        }
+        .empty-cart-message {
+            display: none;
+        }
+
+        .empty-cart-links {
+            #cart-choose-products {
+                font-family: $font-family-secundary;
+                font-size: 14px;
+                line-height: 16px;
+            }
+            .btn {
+                width: 28%;
+                background-color: transparent;
+                border: 1px solid $color-black;
+                border-radius: 0;
+                color: $color-black;
+
+                @media (min-width: 600px) and (max-width: 1024px) {
+                    width: 26%;
+                }
+                @media (min-width: 275px) and (max-width: 599px) {
+                    width: 60%;
+                }
+            }
+        }
+    }
+    @media (max-width: 1024px) {
+        .row-fluid .summary {
+            display: flex;
+            flex-direction: column;
+            .totalizers {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin: 0;
+            }
+            .coupon-fieldset {
+                margin-top: 48px;
+            }
+        }
+    }
+}
