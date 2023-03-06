@@ -1,7 +1,7 @@
 # M3 Academy - Desafio 04
 
-![preview](<./checkout/arquivos/assets/imgs/desafio04(1).png>)
-![preview](<./checkout/arquivos/assets/imgs/desafio04(2).png>)
+![preview](<./checkout/src/arquivos/assets/imgs/desafio04(1).png>)
+![preview](<./checkout/src/arquivos/assets/imgs/desafio04(2).png>)
 
 ## Descrição
 
